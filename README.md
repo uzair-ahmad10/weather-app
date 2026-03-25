@@ -24,7 +24,7 @@ A beautiful and responsive weather application interface built with HTML and CSS
 3. Open `index.html` in any modern web browser to view the interface.
 
 ## For Curious fellow
-- [Click here](https://weather-webapp-interface.netlify.app/)
+- [Link Weather WebApp Interface](https://weather-webapp-interface.netlify.app/)
 
 ## Author
 Created as part of a Web Development / CSS learning project.
