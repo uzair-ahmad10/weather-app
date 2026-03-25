@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(thunderstorm-countryside.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.app-container{
+    background-color: rgba(34, 34, 34, 0.8);
+    width: 65%;
+    height: 80vh;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+}
+
+/* header section */
+.header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1{
+    color: rgb(245, 177, 51);
+    margin-bottom: 8px;
+}
+
+.header p{
+    color: white;
+    font-weight: bold;
+}
+
+/* search section */
+
+.search-section{
+    max-width: 100%;
+    background-color: rgba(34, 34, 34, 0.3);
+}
+
+.input-section{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+
+.input{
+    min-width: 70%;
+    padding: 16px;
+    border-radius: 24px;
+    border: none;
+    font-size: 14px;
+    background-color:  #444;
+    font-weight: bold;
+    color: white;
+    outline: none;
+}
+
+.search-btn{
+    width: 20%;
+    border-radius: 24px;
+    border: none;
+    font-weight: 300;
+    cursor: pointer;
+    background-color: rgb(245, 177, 51);
+    color: white;
+    font-size: 18px;
+}
+
+.search-btn:hover{
+    background-color: black;
+}
+
+/* city weather section */
+
+.city-weather{
+    min-width: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.city-weather:hover{
+    transition: all 0.5s ease;
+    transform: scale(1.05);
+}
+
+.weather-icon {
+    font-size: 90px;       
+    color: #e48675;           
+    margin-bottom: 20px;      
+    filter: drop-shadow(0px 0px 12px rgba(228, 134, 117, 0.8));
+}
+
+.city-info h2{
+    color: rgb(245, 177, 51);
+    font-size: 32px;
+}
+
+.city-info h3{
+    color: #615c5c;
+}
+
+.city-info{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+}
+
+/* prediction section */
+.day-card .weather-icon {
+    font-size: 25px;       
+    color: #e48675;           
+    margin-bottom: 20px;      
+    filter: drop-shadow(0px 0px 12px rgba(228, 134, 117, 0.8));
+}
+
+.prediction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.day-card{
+    width: 20%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    height: 125px;
+    cursor: pointer;
+}
+
+.day-card h3{
+    color: rgb(245, 177, 51);
+    margin-bottom: 10px;
+}
+
+.day-card h4{
+    color: rgb(105, 101, 96);
+}
+
+.day-card:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
